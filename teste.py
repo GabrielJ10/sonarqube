@@ -17,7 +17,7 @@ class Produto:
         self.nome = nome
         self.preco = preco
         self.estoque = estoque
-    
+    ramdom code that i forget to comment
     def vender(self, quantidade):
         if self.estoque >= quantidade:
             self.estoque -= quantidade
